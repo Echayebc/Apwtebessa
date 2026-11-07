@@ -8,7 +8,6 @@ a{text-decoration:none;color:#111}
 .top{background:#fff;padding:10px 14px;display:flex;align-items:center;gap:10px;border-bottom:2px solid #0b6db3}
 .top img{width:68px;height:68px;border-radius:50%;border:3px solid #0b6db3;object-fit:cover}
 .top .t{flex:1}.top .t b{font-size:16px;color:#0b6db3}.top .t small{display:block;color:#555;font-size:13px}
-.btn-dl{background:linear-gradient(135deg,#7b2ff7,#00c6ff);color:#fff!important;padding:10px 16px;border-radius:20px;font-weight:900;font-size:15px;white-space:nowrap}
 .hero{background:#0b6db3;color:#fff;text-align:center;padding:28px 16px 30px;border-radius:0 0 28px 28px}
 .hero h1{font-size:30px;margin:6px 0;line-height:1.4}.hero p{font-size:19px;margin:4px 0}
 .search{max-width:900px;margin:18px auto 0;padding:0 14px}
@@ -20,7 +19,7 @@ a{text-decoration:none;color:#111}
 .card b{font-size:24px;color:#0b6db3}.card span{font-size:17px;font-weight:700;line-height:1.5}.card small{color:#666;font-size:12px}
 .card:active{transform:scale(.97);background:#e8f3fb}
 .foot{text-align:center;color:#666;font-size:13px;padding:20px}
-@media(max-width:500px){.hero h1{font-size:25px}.top .t b{font-size:14px}}
+@media(max-width:500px){.hero h1{font-size:25px}}
 </style>
 </head>
 <body>
@@ -28,7 +27,6 @@ a{text-decoration:none;color:#111}
 <div class="top">
 <img src="tahar.jpg" alt="الطاهر خضار">
 <div class="t"><b>المجلس الشعبي الولائي - تبسة</b><small>ولاية تبسة - 12<br>لأغراض التوعية والتعريف فقط</small></div>
-<a class="btn-dl" href="asila-chaiia.html">📥 دخول</a>
 </div>
 
 <div class="hero">
@@ -39,7 +37,6 @@ a{text-decoration:none;color:#111}
 <div class="search"><input id="s" onkeyup="f()" placeholder="🔍 حوس هنا... ميزانية، لجنة، رئيس..."></div>
 
 <div class="wrap">
-
 <div class="sec">📁 الرئيسية</div>
 <div class="grid">
 <a class="card" href="asma-aada.html"><b>001</b><span>أسماء الأعضاء</span><small>50 عضو</small></a>
@@ -83,10 +80,9 @@ a{text-decoration:none;color:#111}
 <a class="card" href="tebessa-28.html"><b>027</b><span>تبسة - 28 بلدية</span><small>12 دائرة</small></a>
 <a class="card" href="mutafariqat.html"><b>028</b><span>متفرقات</span><small>10 حوايج مهمين</small></a>
 </div>
-
 </div>
 
-<div class="foot">المجلس الشعبي الولائي - تبسة | القانون 12-07 | 50 عضو<br>Apwtebessa</div>
+<div class="foot">المجلس الشعبي الولائي - تبسة | القانون 12-07 | 50 عضو</div>
 
 <script>
 function f(){var v=document.getElementById('s').value.toLowerCase();document.querySelectorAll('.card').forEach(function(c){c.style.display=c.textContent.toLowerCase().includes(v)?'flex':'none'})}
